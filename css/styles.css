@@ -73,6 +73,7 @@ img {
 
 .item-nav {}
 
+
 .link-nav {
   color: #2E2F42;
   font-size: 16px;
@@ -81,6 +82,16 @@ img {
   letter-spacing: 0.02em;
   padding: 24px 0;
   display: block;
+}
+
+.active::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 4px;
+  background-color: #404BBF;
+  border-radius: 2px;
+  position: relative;
 }
 
 .link-nav:hover,
@@ -212,6 +223,19 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.icon-advantages {
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #8E8F99;
+  background: #F4F4FD;
+  display: flex;
+  justify-content: center;
+}
+
+.svg-icon {}
 
 /* ---------------SECTION3------------------- */
 .section-team {
