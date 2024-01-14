@@ -105,9 +105,7 @@ img {
 }
 
 .link-nav:hover,
-.link-nav:focus {
-  color: #404BBF transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+.link-nav:focus {}
 
 .adress {
   font-style: normal;
@@ -132,7 +130,6 @@ img {
 .link-adress:hover,
 .link-adress:focus {
   color: #404BBF;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ------------------SECTION1--------------- */
@@ -195,6 +192,10 @@ img {
 .section-two {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.section-icons {
+  align-items: center;
 }
 
 .visually-hidden {
