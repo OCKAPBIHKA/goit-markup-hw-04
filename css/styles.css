@@ -405,7 +405,7 @@ img {
   background: #4D5AE5;
   height: 100%;
   transform: translateY(100%);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .paragraf-text-cover {
@@ -420,6 +420,9 @@ img {
 
 .link-portfolio:hover .selers-text-cover {
   transform: translateY(0%);
+}
+
+.link-portfolio:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
