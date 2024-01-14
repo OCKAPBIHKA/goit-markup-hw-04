@@ -410,6 +410,7 @@ img {
   padding-left: 32px;
   position: absolute;
   top: 0;
+  padding: 40px 32px;
   background: #4D5AE5;
   height: 100%;
   transform: translateY(100%);
