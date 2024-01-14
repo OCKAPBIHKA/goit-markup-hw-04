@@ -194,9 +194,7 @@ img {
   padding-bottom: 120px;
 }
 
-.section-icons {
-  align-items: center;
-}
+.section-icons {}
 
 .visually-hidden {
   display: none;
@@ -246,6 +244,8 @@ img {
   background: #F4F4FD;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
 /* ---------------SECTION3------------------- */
