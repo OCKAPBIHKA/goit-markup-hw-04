@@ -330,11 +330,14 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-sochrefiteam:hover {
+.icon-sochrefiteam:hover,
+.icon-sochrefiteam :focus {
   background-color: #404bbf;
 }
 
-.icon-sochref {}
+.icon-sochref {
+  fill: #f4f4fd;
+}
 
 /* ------------------SECTION4------------------ */
 .section-portfolio {
@@ -371,6 +374,7 @@ img {
 
 .link-portfolio {
   width: calc((100% - 24px * 2) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .name-portfolio {
@@ -416,6 +420,9 @@ img {
 
 .link-portfolio:hover .selers-text-cover {
   transform: translateY(0%);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /* ---------------FOOTER------------------ */
