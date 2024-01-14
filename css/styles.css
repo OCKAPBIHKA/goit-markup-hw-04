@@ -39,7 +39,9 @@ img {
 .header-conteiner {
   display: flex;
   align-items: center;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-one {
@@ -100,12 +102,11 @@ img {
 .psevdo {
   position: relative;
   color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-nav:hover,
 .link-nav:focus {
-  color: #404BBF
+  color: #404BBF transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress {
@@ -118,9 +119,7 @@ img {
   gap: 40px;
 }
 
-.item-adress {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+.item-adress {}
 
 .link-adress {
   color: #434455;
@@ -128,12 +127,12 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-adress:hover,
 .link-adress:focus {
   color: #404BBF;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ------------------SECTION1--------------- */
@@ -180,8 +179,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  ;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-one:hover,
